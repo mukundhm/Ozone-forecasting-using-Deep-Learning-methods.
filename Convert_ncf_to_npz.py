@@ -11,6 +11,7 @@ from keras_tqdm import TQDMNotebookCallback
 import os
 import random
 import glob
+
 def get_index(grid,val):
     try:
         return np.where(grid==val)[0][0]
